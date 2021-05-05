@@ -1,0 +1,21 @@
+@import url(https://cdn.ef.design/libs/web-ui/latest/css/bundle.min.css);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply h-full;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
+}
